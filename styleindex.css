@@ -1,19 +1,19 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    background-color: #f8c8dc;
+    background-color: #f4b4a4;
     color: #333;
 }
 
 header {
-    background-color: #a68a64;
+    background-color: #d1a481;
     color: white;
     padding: 15px;
     text-align: center;
 }
 
 .bienvenida{
-    background-color: #c2f0c2;
+    background-color: #d3d596;
     padding: 20px;
     text-align: center;
 }
