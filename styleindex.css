@@ -29,3 +29,20 @@ header {
     font-weight: bold;
     text-decoration: none;
 }
+.presentacion {
+    display: flex; /* Flexbox para alinear texto e imagen */
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.texto {
+    max-width: 400px;
+    margin: 10px;
+}
+
+.imagenes img {
+    width: 250px;
+    border-radius: 8px;
+    margin: 10px;
+}
