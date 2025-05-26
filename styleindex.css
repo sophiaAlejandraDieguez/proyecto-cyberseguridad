@@ -45,11 +45,10 @@ header {
 
 .texto {
     max-width: 400px;
-    margin: 10px;
 }
 
+/* Imagen */
 .imagenes img {
     width: 250px;
     border-radius: 8px;
-    margin: 10px;
 }
