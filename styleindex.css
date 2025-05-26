@@ -18,10 +18,11 @@ header {
     text-align: center;
 }
 
-.enlaces{
-    text-align: center;
+.enlaces {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     margin: 15px 0;
-
 }
 
 .enlaces a {
@@ -47,7 +48,6 @@ header {
     max-width: 400px;
 }
 
-/* Imagen */
 .imagenes img {
     width: 250px;
     border-radius: 8px;
