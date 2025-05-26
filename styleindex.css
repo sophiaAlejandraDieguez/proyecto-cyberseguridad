@@ -22,3 +22,10 @@ header {
     text-align: center;
     margin: 15px 0;
 }
+
+.enlaces a {
+    margin:0 10px;
+    color: #a68a64;
+    font-weight: bold;
+    text-decoration: none;
+}
