@@ -1,55 +1,107 @@
 body {
-  background-color: #1a1a1a;
-  color: #EFE4DC;
-  font-family: Arial, sans-serif;
+  background-color: #EFE4DC;
+  color: #52600A;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
   padding: 20px;
 }
 
-h1 {
-  color: #FAB4A4;
+header {
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.enlaces {
+  margin-bottom: 15px;
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: #CB7287;
+  margin: 0 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.enlaces a:hover {
+  color: #D1A481;
+}
+
+h1 {
+  color: #D3D596;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .menu {
-  text-align: center;
-  margin: 20px 0;
+  margin-top: 10px;
 }
 
 .menu a {
-  color: #D3D596;
   text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
+  color: #CB7287;
+  margin: 0 15px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
 }
 
 .menu a:hover {
-  color: #CB7287;
+  color: #D1A481;
 }
 
 .seccion {
-  background-color: #D1A481;
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  color: #1a1a1a;
+  background-color: #FFFFFF;
+  border: 2px solid #D1A481;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(209, 164, 129, 0.3);
 }
 
 .seccion h2 {
+  color: #CB7287;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.seccion p, 
+.seccion ul {
+  font-size: 1rem;
+  line-height: 1.6;
   color: #52600A;
+}
+
+.seccion ul {
+  padding-left: 20px;
+}
+
+.seccion li {
+  margin-bottom: 8px;
+}
+
+.seccion b {
+  color: #D1A481;
 }
 
 .imagen {
   display: block;
-  width: 100%;
-  max-width: 400px;
-  margin: 15px auto;
-  border: 4px solid #EFE4DC;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto 0 auto;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  border: 4px solid #FAB4A4;
+  box-shadow: 0 4px 12px rgba(251, 180, 164, 0.5);
 }
 
-.footer {
+footer {
   text-align: center;
-  margin-top: 40px;
+  padding: 15px 0;
+  font-size: 0.9rem;
   color: #CB7287;
+  border-top: 1px solid #D1A481;
+  margin-top: 40px;
 }
