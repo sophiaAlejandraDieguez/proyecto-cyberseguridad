@@ -1,3 +1,55 @@
 body{
-    background-color: brown;
+    background-color: rgb(239 228 220);
+    border:5px solid rgb(203 114 135);
+    border-radius: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav{
+   display:flex;
+   align-items:center; /*Lo use para centrar los enlaces a las otras dos páginas*/
+   justify-content:space-around; /*Lo use para poder espaciarlos equitativamente*/
+   border:5px solid rgb(203 114 135);
+}
+
+header{
+    display:flex;
+    justify-content:center; /*Para centrar el título*/
+    color:rgb(209 164 129);
+    background-color: rgb(203 114 135);
+}
+
+a:link{
+    color:rgb(82 96 10);
+}
+
+a:hover{
+    color:rgb(203 114 135);
+}
+
+a:visited{
+    color:rgb(209 164 129);
+}
+
+.imagenes{
+    display:flex;
+    flex-wrap:wrap; /*Para que las imágenes se acomoden en distintas líneas*/
+    justify-content:center; /*Para centrar las imagenes*/
+    flex-direction:row; /*Para que se vieran en filas hacia abajo*/
+    gap:20px;
+    padding:20px;
+}
+
+.imagenes img{
+    width: 45%;
+    height: 45%;
+    border-radius:10px;
+}
+
+footer{
+    color:rgb(209 164 129);
+    background-color: rgb(203 114 135);
+    border:5px solid rgb(203 114 135);
+    display:flex;
+    justify-content: center; /*Para centrar lo que escribí*/
 }
