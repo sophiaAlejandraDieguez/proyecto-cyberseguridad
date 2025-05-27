@@ -1,83 +1,55 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #52600A; /* fondo oscuro */
-  color: #EFE4DC; /* texto principal claro */
-  line-height: 1.6;
+  background-color: #1a1a1a;
+  color: #EFE4DC;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
-header {
-  background-color: #CB7287;
-  color: white;
-  padding: 1.5rem;
+h1 {
+  color: #FAB4A4;
   text-align: center;
 }
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
+
+.menu {
+  text-align: center;
+  margin: 20px 0;
 }
-nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  list-style: none;
-}
-nav a {
-  color: #EFE4DC;
+
+.menu a {
+  color: #D3D596;
   text-decoration: none;
+  margin: 0 10px;
   font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
-}
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 2rem;
-}
-.card {
-  background-color: #D1A481; 
-  color: #2b2b2b;
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.card h2 {
-  color: #CB7287; 
-  border-bottom: 2px solid #FAB4A4;
-  padding-bottom: 0.3rem;
+.menu a:hover {
+  color: #CB7287;
 }
 
-.card ul li {
-  margin-left: 1rem;
-  list-style: square;
+.seccion {
+  background-color: #D1A481;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
 }
 
-footer {
-  background-color: #CB7287;
-  color: #EFE4DC;
+.seccion h2 {
+  color: #52600A;
+}
+
+.imagen {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 15px auto;
+  border: 4px solid #EFE4DC;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
   text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
-  font-size: 0.9rem;
-}
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card {
-    padding: 1rem;
-  }
+  margin-top: 40px;
+  color: #CB7287;
 }
